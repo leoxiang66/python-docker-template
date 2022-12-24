@@ -11,7 +11,7 @@ sudo apt-get install docker.io
 sudo docker build -t app_name:0.1.0 .
 
 # run in debug mode
-sudo docker run -p 8080:8080 --name project_name app_name:0.1.0
+sudo docker run -p 8080:8080 --name container_name app_name:0.1.0
 
 # access app: http://localhost:8080
 ```
@@ -40,7 +40,7 @@ sudo docker image ls
 sudo docker pull adapting/test-project:0.1.0 #https://hub.docker.com/r/adapting/test-project 
 
 # run (create a container)
-sudo docker run -p 8080:8080 --name test adapting/test-project:0.1.0
+sudo docker run -p 8080:8080 --name container_name adapting/test-project:0.1.0
 ```
 
 ## container
